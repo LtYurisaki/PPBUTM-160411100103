@@ -71,22 +71,22 @@ public class MainActivity extends AppCompatActivity {
         vText4.setText(String.valueOf(bmi));
 
         if (bmi < 18.4){
-            tampilText4.setText(String.valueOf(bmi)+" Underweight");
+            vText4.setText(String.valueOf(bmi)+" Underweight");
         }
         else if (bmi >= 18.5 && bmi <= 24.9){
-            tampilText4.setText(String.valueOf(bmi)+" Normalweight");
+            vText4.setText(String.valueOf(bmi)+" Normalweight");
         }
         else if (bmi >= 25 && bmi <= 29.9){
-            tampilText4.setText(String.valueOf(bmi)+" Overweight");
+            vText4.setText(String.valueOf(bmi)+" Overweight");
         }
         else if (bmi >= 30 && bmi <= 34.9){
-            tampilText4.setText(String.valueOf(bmi)+" Obesity lvl1");
+            vText4.setText(String.valueOf(bmi)+" Obesity lvl1");
         }
         else if (bmi >= 35 && bmi <= 39.9){
-            tampilText4.setText(String.valueOf(bmi)+" Obesity lvl2");
+            vText4.setText(String.valueOf(bmi)+" Obesity lvl2");
         }
         else {
-            tampilText4.setText(String.valueOf(bmi)+" Obesity lvl3");
+            vText4.setText(String.valueOf(bmi)+" Obesity lvl3");
         }
 
     }
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main_task2);
     }
 
-    public void tugas3(View view) {
+    public void task3(View view) {
         setContentView(R.layout.activity_main_task3);
     }
 
