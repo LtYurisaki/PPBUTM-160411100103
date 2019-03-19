@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.PraktikumPPB_D2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     EditText inputText3;
     Button button1;
     Button button2;
-    //Button button_tugas1;
+
     String word;
     String word1;
     String word2;
