@@ -48,6 +48,10 @@ public class MainActivity extends AppCompatActivity {
     String namaPemesan2;
     String pembayaran2,kembalian2,bayar2;
 
+    EditText LoginUserName;
+    EditText LoginPassword;
+    Button LoginButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -303,6 +307,7 @@ public class MainActivity extends AppCompatActivity {
         rBS31.setText(R.string.hangat_i);
         rBS32.setText(R.string.dingin_i);
         Pesan.setText(R.string.pesan_i);
+        Pesan.setText(R.string.kontak_i);
     }public void BahasaInggris(View view) {
         TNamaPemesan.setText(R.string.nama_pemesan_e);
         TMenuKopi.setText(R.string.menu_coffe_e);
@@ -316,6 +321,7 @@ public class MainActivity extends AppCompatActivity {
         rBS31.setText(R.string.hangat_e);
         rBS32.setText(R.string.dingin_e);
         Pesan.setText(R.string.pesan_e);
+        Pesan.setText(R.string.kontak_e);
     }
 
     public void pMenu1(View view) {
@@ -359,10 +365,25 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void task3(View view) {
+        setContentView(R.layout.activity_main_task3_1);
 
-        setContentView(R.layout.activity_main_task3);
+        LoginUserName = (EditText) findViewById(R.id.LoginUserName);
+        LoginPassword = (EditText) findViewById(R.id.LoginPassword);
+
+        LoginButton = (Button) findViewById(R.id.LoginButton);
+        LoginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(LoginUserName.getText().toString().equals("admin") && LoginPassword.getText().toString().equals("admin")){
+                    Toast.makeText(getBaseContext(), "Success", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(getApplicationContext(), Main3Activity.class);
+                    finish();
+                    startActivity(intent);
+                }
+                else{
+                    Toast.makeText(getBaseContext(), "Failed", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
-
-
-
 }

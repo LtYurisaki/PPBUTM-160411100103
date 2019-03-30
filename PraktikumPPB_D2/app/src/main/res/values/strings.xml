@@ -15,6 +15,7 @@
     <string name="dingin_i">Dingin</string>
     <string name="jumlah_i">Jumlah :</string>
     <string name="pesan_i">MEMESAN</string>
+    <string name="kontak_i">HUBUNGI</string>
     //English
     <string name="nama_pemesan_e">CUSTOMER NAME</string>
     <string name="masukkan_nama_e">Enter Name</string>
@@ -24,6 +25,7 @@
     <string name="dingin_e">Cold</string>
     <string name="jumlah_e">Count :</string>
     <string name="pesan_e">ORDER</string>
+    <string name="kontak_e">MAKE CALL</string>
 
     <string name="total">Total</string>
     //intent_i
