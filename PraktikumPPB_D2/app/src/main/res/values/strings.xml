@@ -3,4 +3,99 @@
     <string name="tv_judul">Masukan Nama anda</string>
     <string name="kirim">Kirim</string>
     <string name="judul">Tugas Praktikum PPB D2</string>
+    <string name="arabika">Arabika</string>
+    <string name="robusta">Robusta</string>
+    <string name="americano">Americano</string>
+    //indonesia
+    <string name="nama_pemesan_i">NAMA PEMESAN</string>
+    <string name="masukkan_nama_i">Masukkan nama</string>
+    <string name="menu_coffe_i">Menu Kopi :</string>
+    <string name="sajian_i">Sajian :</string>
+    <string name="hangat_i">Hangat</string>
+    <string name="dingin_i">Dingin</string>
+    <string name="jumlah_i">Jumlah :</string>
+    <string name="pesan_i">MEMESAN</string>
+    //English
+    <string name="nama_pemesan_e">CUSTOMER NAME</string>
+    <string name="masukkan_nama_e">Enter Name</string>
+    <string name="menu_coffe_e">Coffee Menu :</string>
+    <string name="sajian_e">Dish :</string>
+    <string name="hangat_e">Hot</string>
+    <string name="dingin_e">Cold</string>
+    <string name="jumlah_e">Count :</string>
+    <string name="pesan_e">ORDER</string>
+
+    <string name="total">Total</string>
+    //intent_i
+    <string name="nama_pemesan2_i">"Nama Pemesan : \</string>
+    <string name="pembayaran_i">Pembayaran</string>
+    <string name="kembalian_i">Kembalian</string>
+    <string name="bayar_i">Bayar</string>
+    //intent_e
+    <string name="nama_pemesan2_e">"Customer Name : \</string>
+    <string name="pembayaran_e">Payment</string>
+    <string name="kembalian_e">Change</string>
+    <string name="bayar_e">Pay</string>
+    <string name="plus">+</string>
+    <string name="min">-</string>
+    <string name="nol">0</string>
+
+    //Arabika
+    <string name="tmenu1">"Arabika \</string>
+    <string name="hmenu1">HMenu1</string>
+    <string name="x_bmenu1">x BMenu1</string>
+    <string name="totalmenu1">TotalMenu1</string>
+    //Robusta
+    <string name="tmenu2">"Robusta \</string>
+    <string name="hmenu2">HMenu2</string>
+    <string name="x_bmenu2">x BMenu2</string>
+    <string name="totalmenu2">TotalMenu2</string>
+    //Americano
+    <string name="tmenu3">"Americano \</string>
+    <string name="hmenu3">HMenu3</string>
+    <string name="x_bmenu3">x BMenu3</string>
+    <string name="totalmenu3">TotalMenu3</string>
+    //String
+    <string name="Sd">=</string>
+    <string name="tanpa_nama">Tanpa Nama</string>
+    <string name="totalmenu">TotalMenu</string>
+    <string name="Rupiah">"Rp. \</string>
+    <string name="i">I</string>
+    <string name="e">E</string>
+    //data perpindahan halaman
+    <string name="bahasa">bahasa</string>
+    <string name="namaPemesan2">namaPemesan2</string>
+    <string name="pembayaran2">pembayaran2</string>
+    <string name="kembalian2">kembalian2</string>
+    <string name="bayar2">bayar2</string>
+    <string name="f">false</string>
+    <string name="t">true</string>
+    <string name="SrBS1">SrBS1</string>
+    <string name="hMenu1">hMenu1</string>
+    <string name="jMenu1">jMenu1</string>
+    <string name="toMenu1">toMenu1</string>
+    <string name="SrBS2">SrBS2</string>
+    <string name="hMenu2">hMenu2</string>
+    <string name="jMenu2">jMenu2</string>
+    <string name="toMenu2">toMenu2</string>
+    <string name="SrBS3">SrBS3</string>
+    <string name="hMenu3">hMenu3</string>
+    <string name="jMenu3">jMenu3</string>
+    <string name="toMenu3">toMenu3</string>
+    <string name="c1">c1</string>
+    <string name="c2">c2</string>
+    <string name="c3">c3</string>
+    <string name="x">"x \</string>
+    <string name="berhasil_i">Berhasil dibayar</string>
+    <string name="berhasil_e">Successfully paid</string>
+    <string name="masukanUangPembayaran_i">Tolong masukan uang pembayaran</string>
+    <string name="masukanUangPembayaran_e">Please enter payment money</string>
+    <string name="uangKurang_i">Uang tidak cukup</string>
+    <string name="uangKurang_e">Money is not enough</string>
+    <string name="jumlahMinuman_i">Masukan jumlah minuman</string>
+    <string name="jumlahMinuman_e">Enter the number of drinks</string>
+    <string name="pilihMenu_i">Pilih menu minuman</string>
+    <string name="pilihMenu_e">Select the drink menu</string>
+    <string name="masukanNama_i">Tolong masukan nama Anda</string>
+    <string name="masukanNama_e">Please enter your name</string>
 </resources>

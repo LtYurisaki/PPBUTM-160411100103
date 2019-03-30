@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:onClick="showToast"
         android:text="Show"
-        android:background="@drawable/custom_button"
+        android:background="@color/colorPrimaryDark"
         />
 
     <TextView
@@ -81,7 +81,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="showToast2"
-        android:background="@drawable/custom_button"
+        android:background="@color/colorPrimaryDark"
         android:text="Calculate" />
 
     <TextView

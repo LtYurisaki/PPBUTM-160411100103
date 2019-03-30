@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Main2Activity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/namaPemesan2"
+                android:textSize="20dp"
+                android:text="@string/nama_pemesan2_i"
+                android:paddingBottom="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:id="@+id/RL1"
+                android:layout_below="@+id/namaPemesan2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/TArabika"
+                    android:text="@string/tmenu1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/HArabika"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TArabika"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-1dp"
+                    android:text="@string/hmenu1" />
+                <TextView
+                    android:id="@+id/CArabika"
+                    android:layout_below="@+id/TArabika"
+                    android:layout_marginLeft="80dp"
+                    android:text="@string/x_bmenu1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/STArabika"
+                    android:layout_below="@+id/TArabika"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/Sd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/ToArabika"
+                    android:layout_below="@+id/TArabika"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/totalmenu1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RL2"
+                android:layout_below="@+id/RL1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/TRobusta"
+                    android:text="@string/tmenu2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/HRobusta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TRobusta"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-1dp"
+                    android:text="@string/hmenu2" />
+                <TextView
+                    android:id="@+id/CRobusta"
+                    android:layout_below="@+id/TRobusta"
+                    android:layout_marginLeft="80dp"
+                    android:text="@string/x_bmenu2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/STRobusta"
+                    android:layout_below="@+id/TRobusta"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/Sd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/ToRobusta"
+                    android:layout_below="@+id/TRobusta"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/totalmenu2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RL3"
+                android:layout_below="@+id/RL2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/TAmericano"
+                    android:text="@string/tmenu3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/HAmericano"
+                    android:layout_below="@+id/TAmericano"
+                    android:text="@string/hmenu3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/CAmericano"
+                    android:layout_below="@+id/TAmericano"
+                    android:layout_marginLeft="80dp"
+                    android:text="@string/x_bmenu3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/STAmericano"
+                    android:layout_below="@+id/TAmericano"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/Sd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/ToAmericano"
+                    android:layout_below="@+id/TAmericano"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/totalmenu3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/RL4"
+                android:layout_below="@id/RL3"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/Total"
+                    android:text="@string/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/SJTotal"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/Sd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/JTotal"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/totalmenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/RL5"
+                android:layout_below="@+id/RL4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/pembayaran"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/pembayaran_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/SJPembayaran"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/Sd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/JPembayaran"
+                    android:inputType="number"
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="center"
+                    android:textSize="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/RL6"
+                android:layout_below="@+id/RL5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/kembalian"
+                    android:text="@string/kembalian_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/SJKembalian"
+                    android:layout_centerInParent="true"
+                    android:text="@string/Sd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/JKembalian"
+                    android:inputType="number"
+                    android:layout_alignParentRight="true"
+                    android:textAlignment="center"
+                    android:text="@string/min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/bayar"
+                android:text="@string/bayar_i"
+                android:onClick="bayar"
+                android:layout_below="@+id/RL6"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

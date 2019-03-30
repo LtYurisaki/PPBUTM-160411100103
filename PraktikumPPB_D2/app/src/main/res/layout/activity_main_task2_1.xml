@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioGroup
+                android:id="@+id/rG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rBI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:onClick="BahasaIndonesia" />
+
+                <ImageView
+                    android:id="@+id/indo"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/indonesia" />
+
+                <RadioButton
+                    android:id="@+id/rBE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="BahasaInggris" />
+
+                <ImageView
+                    android:id="@+id/eng"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/inggris" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/namaPemesan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rG"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="30dp"
+                android:text="@string/nama_pemesan_i"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editNamaPemesan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namaPemesan"
+                android:hint="@string/masukkan_nama_i"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/menuCoffe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editNamaPemesan"
+                android:text="@string/menu_coffe_i"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/c1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/menuCoffe"
+                android:text="@string/arabika"
+                android:textSize="10dp" />
+
+            <CheckBox
+                android:id="@+id/c2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/c1"
+                android:text="@string/robusta"
+                android:textSize="10dp" />
+
+            <CheckBox
+                android:id="@+id/c3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/c2"
+                android:text="@string/americano"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/sajian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editNamaPemesan"
+                android:layout_centerHorizontal="true"
+                android:text="@string/sajian_i"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rG1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sajian"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rBS11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:checked="true"
+                    android:text="@string/hangat_i"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/rBS12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/dingin_i"
+                    android:textSize="10dp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rG2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rG1"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rBS21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:checked="true"
+                    android:text="@string/hangat_i"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/rBS22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/dingin_i"
+                    android:textSize="10dp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rG3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rG2"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rBS31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:checked="true"
+                    android:text="@string/hangat_i"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/rBS32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/dingin_i"
+                    android:textSize="10dp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/jumlah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editNamaPemesan"
+                android:layout_alignParentRight="true"
+                android:text="@string/jumlah_i"
+                android:textStyle="bold" />
+            <RelativeLayout
+                android:id="@+id/rLjMenu1"
+                android:layout_below="@+id/jumlah"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/plusjMenu1"
+                    android:text="@string/plus"
+                    android:textSize="5dp"
+                    android:onClick="pMenu1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:id="@+id/jMenu1"
+                    android:text="@string/nol"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="3dp"
+                    android:layout_toRightOf="@+id/plusjMenu1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/minjMenu1"
+                    android:textSize="5dp"
+                    android:text="@string/min"
+                    android:onClick="mMenu1"
+                    android:layout_toRightOf="@+id/jMenu1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rLjMenu2"
+                android:layout_below="@+id/rG1"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/plusjMenu2"
+                    android:text="@string/plus"
+                    android:onClick="pMenu2"
+                    android:textSize="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:id="@+id/jMenu2"
+                    android:text="@string/nol"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="3dp"
+                    android:layout_toRightOf="@+id/plusjMenu2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/minjMenu2"
+                    android:textSize="5dp"
+                    android:text="@string/min"
+                    android:onClick="mMenu2"
+                    android:layout_toRightOf="@+id/jMenu2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rLjMenu3"
+                android:layout_below="@+id/rG2"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/plusjMenu3"
+                    android:text="@string/plus"
+                    android:onClick="pMenu3"
+                    android:textSize="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:id="@+id/jMenu3"
+                    android:text="@string/nol"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="3dp"
+                    android:layout_toRightOf="@+id/plusjMenu3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/minjMenu3"
+                    android:textSize="5dp"
+                    android:text="@string/min"
+                    android:onClick="mMenu3"
+                    android:layout_toRightOf="@+id/jMenu3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/pesan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rG3"
+                android:onClick="Pengecekan"
+                android:text="@string/pesan_i" />
+
+        </RelativeLayout>
+    </ScrollView>
+</ScrollView>
